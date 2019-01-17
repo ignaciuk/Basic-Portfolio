@@ -17,6 +17,20 @@ header {
     height: 70px;
 }
 
+footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    border-top: 8px solid #4aaaa5;
+    background: grey;
+    text-align: center;
+}
+
+#footer-container {
+    margin: auto;
+    color: #fff;
+}
+
 .title {
 	/* position: static; */
 	color: #ffffff;
@@ -77,6 +91,16 @@ p {
     background: #fff;
 }
 
+.main-content {
+    position: relative;
+    top: 50px;
+    width: 920px;
+    height: auto;
+    margin: auto;
+    padding: 20px;
+    background: #fff;   
+}
+
 #main-image {
     float: left;
     margin-right: 10px;
@@ -88,3 +112,22 @@ p {
     clear: both;
     display: table;
   }
+
+#large-input-field {
+    text-justify: left;
+    text-align: top;
+    width: 50em;
+    height: 5em;
+}
+
+.container {
+    position: fixed;
+    /* display: inline; */
+    float: left;
+    margin: 10px 10px 10px 10px;
+}
+
+
+
+
+
