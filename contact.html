@@ -14,9 +14,9 @@
 			<h1 id="title-name" class="title">Christopher // Ignaciuk</h1>
 			<div id="links-container-right">
 				<ul>
-					<li><a href="index.html">About</a> //</li>
-					<li><a href="portfolio.html">Portfolio</a> //</li>
-					<li><a href="contact.html">Contact</a></li>
+					<li><a class="main-font" href="index.html">About</a> //</li>
+					<li><a class="main-font" href="portfolio.html">Portfolio</a> //</li>
+					<li><a class="main-font" href="contact.html">Contact</a></li>
 				</ul>
 			</nav>
 		</div>
@@ -24,20 +24,28 @@
     <div class="main-content">
         <h2>Contact</h2>
         <hr>
-            <form action="/action_page.php">
+            <form class="main-font" action="/action_page.php">
                 Name:<br>
-                <input type="text" name="firstname" value="Your Name">
+                <input class="small-input-field" type="text" name="firstname" value="Your Name">
+                <br>
                 <br>
                 Email:<br>
-                <input type="text" name="lastname" value="Your Email">
+                <input class="small-input-field" type="text" name="lastname" value="Your Email">
+                <br>
                 <br>
                 Message: <br>
-                <input id="large-input-field" type="text" name="lastname" value="Let me know what's up.">
+                <input id="large-input-field" type="text" name="lastname" value="Let me know what's up">
                 <br>
                 <input type="submit" value="Submit">
             </form>  
-        <p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
+            <br>
+        <p>If you click the "Submit" button, you will be sent to a nothing zone.</p>
     </div>
+    <footer>
+        <div> 
+            <p id="footer-container">Copyright</p>
+        </div>	
+    </footer>
 </body>
 
 
