@@ -23,6 +23,7 @@ header {
 
 footer {
     width: 100%;
+    height: 30px;
     position: fixed;
     bottom: 0px;
     border-top: 8px solid #4aaaa5;
@@ -31,6 +32,7 @@ footer {
 }
 
 #footer-container {
+    padding: 7px;
     margin: auto;
     color: #fff;
 }
@@ -117,22 +119,11 @@ p, .main-font {
     display: table;
 }
 
-.small-input-field {
-    width: 250px;
-}
-
-#large-input-field {
-    text-justify: left;
-    text-align: top;
-    width: 50em;
-    height: 5em;
-}
-
 .container {
     position: relative;
-    /* display: inline; */
+    width: 250px;
     float: left;
-    margin: 10px 10px 10px 10px;
+    margin: 20px 20px 20px 20px;
 }
 
 .text-block {
@@ -140,7 +131,7 @@ p, .main-font {
     bottom: 10px;
     right: 0px;
     left: 0px;
-    height: 3em;
+    height: 4em;
     background-color: #4aaaa5;
     color: white;
     padding-left: 20px;
@@ -151,8 +142,13 @@ p, .main-font {
 
 .portfolio-text {
     position: relative;
+    font-size: 20px;
     top: 50%;
     transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
+}
+
+.portfolio-text:hover {
+    font-style: italic;
 }
