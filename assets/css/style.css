@@ -97,6 +97,10 @@ p, .main-font {
     background: #fff;
 }
 
+#lyrics {
+    font-style: italic;
+}
+
 .main-content {
     position: relative;
     top: 50px;
